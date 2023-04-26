@@ -1,6 +1,6 @@
 import React from 'react';
 // import { NavLink } from "react-router-dom";
-import './Navbar.css';
+import './Navbar.scss';
 
 
 const Navbar = () => {
@@ -13,17 +13,18 @@ const Navbar = () => {
             <div className="container">
                 <div className="nav-row">
                     <ul className="nav-list">
-                        <li className={({isActive }) => isActive? activeLink : unactiveLink}>
+                        {/* TODO исправить классы */}
+                        <li className="unactiveLink">
                             <a href="#!">
                                 Coffee House
                             </a>
                         </li>
-                        <li className={({isActive }) => isActive? activeLink : unactiveLink}>
+                        <li className="unactiveLink">
                             <a href="#!">
                                 Our Coffee
                             </a>
                         </li>
-                        <li className={({isActive }) => isActive? activeLink : unactiveLink}>
+                        <li className="unactiveLink">
                             <a href="#!">
                                 For your pleasure
                             </a>

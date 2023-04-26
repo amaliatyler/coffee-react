@@ -1,0 +1,19 @@
+/* Исправить классы */
+
+.nav-list {
+    display: flex;
+    font-family: 'Merienda', cursive;
+}
+
+.unactiveLink {
+    list-style: none;
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+.unactiveLink:not(:last-child) {
+    margin-right: 40px;
+}
