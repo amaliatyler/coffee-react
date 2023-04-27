@@ -16,3 +16,23 @@
 	padding: 0 15px;
 	max-width: 1290px;
 }
+
+.info {
+	padding: 80px 0 100px 0;
+	text-align: center;
+	&__wrapper {
+		max-width: 590px;
+		margin: 0 auto;
+	}
+	.divider {
+		margin-bottom: 40px;
+	}
+
+	p {
+		margin-bottom: 40px;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

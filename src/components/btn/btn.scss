@@ -1,0 +1,13 @@
+.outline-btn {
+    border: 1px solid #fff;
+    padding: 5px 40px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        color: rgba(0, 0, 0, 0.5);
+        background-color: #fff;
+    }
+}
